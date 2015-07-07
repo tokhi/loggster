@@ -51,3 +51,8 @@ As you can see, I requested localhost:<port-number>/something via my browser. Th
 ###Outro
 
 As you can see, writing Rack middleware can be pretty simple. Of course, it all depends on what functionality you would like the middleware to have. That being said, the rules (or constraints) that Rack imposes when writing middleware are tiny and very clear.
+
+
+<hr>
+
+Full tutorial here: http://rubylogs.com/writing-rack-middleware/
