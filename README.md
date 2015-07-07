@@ -40,10 +40,13 @@ After, it creates a server.log file and inside, it writes the current time, the 
 
 If we run this file with `rackup loggster.ru` and visit the URL, we’ll see that a directory called `logs` and a file `server.log` inside, have been created. So, how does the output of our simple logger looks?
 
+```bash
 ➜ cat logs/server.log
 [2015-06-27 01:24:37 +0200] "GET /something" 200 Delta: 1.3s
 [2015-06-27 01:24:37 +0200] "GET /favicon.ico" 200 Delta: 0.3s
 [2015-06-27 01:24:37 +0200] "GET /favicon.ico" 200 Delta: 0.2s
+```
+
 As you can see, I requested localhost:<port-number>/something via my browser. The browser requested the path and it also requested the favicon twice.
 
 As you can see, I requested localhost:<port-number>/something via my browser. The browser requested the path and it also requested the favicon twice.
